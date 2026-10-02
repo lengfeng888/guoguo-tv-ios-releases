@@ -30,18 +30,19 @@ http://192.168.1.10:8999/tvbox.json
 
 | 版本 | 构建号 | 文件 | 安装包状态 |
 | --- | --- | --- | --- |
-| 1.0.1 | 2 | [GuoGuoTV-1.0.1-2-unsigned.ipa](GuoGuoTV-1.0.1-2-unsigned.ipa) | 当前版本，完全未签名 |
+| 1.0.2 | 3 | [GuoGuoTV-1.0.2-3-unsigned.ipa](GuoGuoTV-1.0.2-3-unsigned.ipa) | 当前版本，完全未签名 |
+| 1.0.1 | 2 | [GuoGuoTV-1.0.1-2-unsigned.ipa](GuoGuoTV-1.0.1-2-unsigned.ipa) | 历史版本，完全未签名 |
 | 1.0 | 1 | [GuoGuoTV-1.0-1-unsigned.ipa](GuoGuoTV-1.0-1-unsigned.ipa) | 历史版本，完全未签名 |
 
-- 当前文件大小：998,221 字节（约 0.95 MiB）
-- 当前 SHA-256：`2ce6d01ef5e26a506722d7bcae05944b99806c78d5622b468353fd4a199a3fc5`
+- 当前文件大小：1,013,495 字节（约 0.97 MiB）
+- 当前 SHA-256：`dc59fdbb53583927ec955a03232f65b9450c270db01c154232cbadeba4b09e72`
 - 校验文件：[SHA256SUMS.txt](SHA256SUMS.txt)
 
-本次 `1.0.1 (2)` 更新重点：
+本次 `1.0.2 (3)` 更新重点：
 
-- 弹幕渲染跟随设备刷新率，滚动更流畅。
-- 倍速选择改为围绕倍速按钮的上、中、下三档交互。
-- 修复倍速选择撑高底栏及无法滚动选择的问题。
+- 详情页收藏按钮旁新增搜索按钮。
+- 搜索时自动去掉剧名末尾的 `第N季`、`Season N` 等季度后缀。
+- 一键切换到搜索页并自动搜索同一系列，方便选择其他季度。
 
 ## 构建信息
 
@@ -49,9 +50,9 @@ http://192.168.1.10:8999/tvbox.json
 | --- | --- |
 | App 名称 | 果果TV |
 | Bundle Identifier | `com.guoguo.tvbox` |
-| 版本 | `1.0.1 (2)` |
-| 源码提交 | `7e569ff36242eff6e4b6aa86e40348da7edff568` |
-| 构建日期 | 2026-10-02 |
+| 版本 | `1.0.2 (3)` |
+| 源码提交 | `a7c2cd6e75c9af1388d5aad38e134b073a1838a5` |
+| 构建日期 | 2026-10-03 |
 | 构建工具 | Xcode 27.0（27A266a） |
 | CPU 架构 | `arm64` |
 | 最低系统 | iOS 16.0 |
@@ -82,19 +83,19 @@ http://192.168.1.10:8999/tvbox.json
 macOS：
 
 ```sh
-shasum -a 256 GuoGuoTV-1.0.1-2-unsigned.ipa
+shasum -a 256 GuoGuoTV-1.0.2-3-unsigned.ipa
 ```
 
 Linux：
 
 ```sh
-sha256sum GuoGuoTV-1.0.1-2-unsigned.ipa
+sha256sum GuoGuoTV-1.0.2-3-unsigned.ipa
 ```
 
 正确结果：
 
 ```text
-2ce6d01ef5e26a506722d7bcae05944b99806c78d5622b468353fd4a199a3fc5
+dc59fdbb53583927ec955a03232f65b9450c270db01c154232cbadeba4b09e72
 ```
 
 ## 安装与风险说明
