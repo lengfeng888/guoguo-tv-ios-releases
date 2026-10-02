@@ -1,0 +1,228 @@
+{
+  "wallpaper": "",
+  "sites": [
+    {
+      "key": "hongniuzy",
+      "name": "🐂┃红牛资源站",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wjwsyziyuan",
+      "name": "♾️┃无尽资源站",
+      "type": 1,
+      "api": "https://api.wujinwszy.net/api.php/provide/vod/from/wjwsym3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "shandianzy",
+      "name": "⚡┃闪电资源站",
+      "type": 1,
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod/from/sdm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ziyuanku",
+      "name": "💎┃优质资源库",
+      "type": 1,
+      "api": "http://api.yzzy-api.com/inc/api_mac10.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xinlangzy",
+      "name": "🌊┃新浪资源站",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "subozy",
+      "name": "🚀┃速播资源站",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod/from/subm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jisuzy",
+      "name": "🏎️┃极速资源站",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "maotaizy",
+      "name": "🍶┃茅台资源站",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "huohuzy",
+      "name": "🦊┃豪华资源站",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "doubanzy",
+      "name": "🫘┃豆瓣资源站",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "okzy",
+      "name": "👌┃OK资源站",
+      "type": 1,
+      "api": "https://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yayazy",
+      "name": "🦆┃鸭鸭资源站",
+      "type": 1,
+      "api": "https://cj.yayazy.net/api.php/provide/vod/from/yym3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yutuzy",
+      "name": "🐰┃玉兔资源站",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zuidazy",
+      "name": "🐘┃最大资源站",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "suonizy",
+      "name": "🎮┃索尼资源站",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "niuniuzy",
+      "name": "🐮┃牛牛资源站",
+      "type": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hsckzy",
+      "name": "📦┃黄色仓库资源",
+      "type": 1,
+      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "dyttzy",
+      "name": "🎬┃电影天堂资源",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xinbazy",
+      "name": "🍑┃杏吧资源站",
+      "type": 1,
+      "api": "https://xingba222.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xiguazy",
+      "name": "🍉┃西瓜资源站",
+      "type": 1,
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jingpin98zy",
+      "name": "⭐┃精品98资源",
+      "type": 1,
+      "api": "https://jp98.vip/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "juliangziyuan",
+      "name": "🐋┃巨量资源站",
+      "type": 1,
+      "api": "https://api.juliang.live/api/provide/vod/from/jlm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jijiziyuan",
+      "name": "🎋┃吉吉资源站",
+      "type": 1,
+      "api": "http://caiji.jjzyapi.com/api.php/provide/vod/from/jjm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "lives": [],
+  "parses": [],
+  "flags": [
+    "qq",
+    "qiyi",
+    "youku",
+    "mgtv",
+    "bilibili",
+    "renren",
+    "pptv",
+    "sohu",
+    "letv"
+  ],
+  "ads": [],
+  "rules": [],
+  "hosts": []
+}
