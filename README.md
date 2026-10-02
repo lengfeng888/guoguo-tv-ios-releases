@@ -4,6 +4,28 @@
 
 > **重要：当前 IPA 未签名，不能直接安装到普通 iPhone 或 iPad。** 请先使用你自己的 Apple ID 或开发者证书完成重签名，再通过 Sideloadly、AltStore、Feather 等工具安装。详细步骤见 [安装说明.md](安装说明.md)。
 
+## 配合果果剧库使用
+
+本客户端需要连接服务端才能浏览、搜索和播放内容。服务端安装包与完整说明请前往配套项目：
+
+- [果果剧库公开发布仓库](https://github.com/lengfeng888/guoguo-juku-releases)
+
+推荐使用顺序：
+
+1. 在 [guoguo-juku-releases](https://github.com/lengfeng888/guoguo-juku-releases) 下载适合你的电脑或 NAS 的果果剧库服务端。
+2. 按照该项目的 `完整说明.md` 启动服务端，并确认 `/tvbox.json` 可以正常访问。
+3. 安装本仓库的果果 TV iOS 客户端，在连接页填写服务端的局域网或公网地址。
+4. 确认手机与服务器网络互通，并在系统弹窗中允许 App 使用本地网络。
+
+示例服务端地址：
+
+```text
+http://192.168.1.10:8999
+http://192.168.1.10:8999/tvbox.json
+```
+
+不要填写 `127.0.0.1` 或 `localhost`，它们指向 iPhone 或 iPad 自己，而不是运行果果剧库的电脑或 NAS。
+
 ## 下载
 
 | 版本 | 构建号 | 文件 | 安装包状态 |
@@ -41,7 +63,7 @@
 
 ## 使用前需要准备
 
-1. 一台运行果果剧库或其他 TVBox 兼容服务端的电脑或 NAS。
+1. 从 [果果剧库公开发布仓库](https://github.com/lengfeng888/guoguo-juku-releases) 获取并启动服务端。
 2. 手机和服务器处于可以互相访问的网络中。
 3. 一个用于重签名的 Apple ID 或 Apple Developer 证书。
 4. 安装后首次连接局域网服务端时，允许 App 使用本地网络。
@@ -62,7 +84,7 @@ Linux：
 sha256sum GuoGuoTV-1.0-1-unsigned.ipa
 ```
 
-输出应包含：
+正确结果：
 
 ```text
 165d3222625e74ced85953b6b173f12349eade2381dd2237fb3c8d73d45f4423
