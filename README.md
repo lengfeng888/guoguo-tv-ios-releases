@@ -30,11 +30,18 @@ http://192.168.1.10:8999/tvbox.json
 
 | 版本 | 构建号 | 文件 | 安装包状态 |
 | --- | --- | --- | --- |
-| 1.0 | 1 | [GuoGuoTV-1.0-1-unsigned.ipa](GuoGuoTV-1.0-1-unsigned.ipa) | 完全未签名 |
+| 1.0.1 | 2 | [GuoGuoTV-1.0.1-2-unsigned.ipa](GuoGuoTV-1.0.1-2-unsigned.ipa) | 当前版本，完全未签名 |
+| 1.0 | 1 | [GuoGuoTV-1.0-1-unsigned.ipa](GuoGuoTV-1.0-1-unsigned.ipa) | 历史版本，完全未签名 |
 
-- 文件大小：986,152 字节（约 0.94 MiB）
-- SHA-256：`165d3222625e74ced85953b6b173f12349eade2381dd2237fb3c8d73d45f4423`
+- 当前文件大小：998,221 字节（约 0.95 MiB）
+- 当前 SHA-256：`2ce6d01ef5e26a506722d7bcae05944b99806c78d5622b468353fd4a199a3fc5`
 - 校验文件：[SHA256SUMS.txt](SHA256SUMS.txt)
+
+本次 `1.0.1 (2)` 更新重点：
+
+- 弹幕渲染跟随设备刷新率，滚动更流畅。
+- 倍速选择改为围绕倍速按钮的上、中、下三档交互。
+- 修复倍速选择撑高底栏及无法滚动选择的问题。
 
 ## 构建信息
 
@@ -42,8 +49,8 @@ http://192.168.1.10:8999/tvbox.json
 | --- | --- |
 | App 名称 | 果果TV |
 | Bundle Identifier | `com.guoguo.tvbox` |
-| 版本 | `1.0 (1)` |
-| 源码提交 | `cfbf60b893547ceedacff77066db61f5caf9b2de` |
+| 版本 | `1.0.1 (2)` |
+| 源码提交 | `7e569ff36242eff6e4b6aa86e40348da7edff568` |
 | 构建日期 | 2026-10-02 |
 | 构建工具 | Xcode 27.0（27A266a） |
 | CPU 架构 | `arm64` |
@@ -75,19 +82,19 @@ http://192.168.1.10:8999/tvbox.json
 macOS：
 
 ```sh
-shasum -a 256 GuoGuoTV-1.0-1-unsigned.ipa
+shasum -a 256 GuoGuoTV-1.0.1-2-unsigned.ipa
 ```
 
 Linux：
 
 ```sh
-sha256sum GuoGuoTV-1.0-1-unsigned.ipa
+sha256sum GuoGuoTV-1.0.1-2-unsigned.ipa
 ```
 
 正确结果：
 
 ```text
-165d3222625e74ced85953b6b173f12349eade2381dd2237fb3c8d73d45f4423
+2ce6d01ef5e26a506722d7bcae05944b99806c78d5622b468353fd4a199a3fc5
 ```
 
 ## 安装与风险说明
