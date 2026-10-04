@@ -30,19 +30,21 @@ http://192.168.1.10:8999/tvbox.json
 
 | 版本 | 构建号 | 文件 | 安装包状态 |
 | --- | --- | --- | --- |
-| 1.0.2 | 3 | [GuoGuoTV-1.0.2-3-unsigned.ipa](GuoGuoTV-1.0.2-3-unsigned.ipa) | 当前版本，完全未签名 |
+| 1.0.3 | 4 | [GuoGuoTV-1.0.3-4-unsigned.ipa](GuoGuoTV-1.0.3-4-unsigned.ipa) | 当前版本，完全未签名 |
+| 1.0.2 | 3 | [GuoGuoTV-1.0.2-3-unsigned.ipa](GuoGuoTV-1.0.2-3-unsigned.ipa) | 历史版本，完全未签名 |
 | 1.0.1 | 2 | [GuoGuoTV-1.0.1-2-unsigned.ipa](GuoGuoTV-1.0.1-2-unsigned.ipa) | 历史版本，完全未签名 |
 | 1.0 | 1 | [GuoGuoTV-1.0-1-unsigned.ipa](GuoGuoTV-1.0-1-unsigned.ipa) | 历史版本，完全未签名 |
 
-- 当前文件大小：1,013,495 字节（约 0.97 MiB）
-- 当前 SHA-256：`dc59fdbb53583927ec955a03232f65b9450c270db01c154232cbadeba4b09e72`
+- 当前文件大小：1,014,561 字节（约 0.97 MiB）
+- 当前 SHA-256：`7c8fba0583ffebbd59e28d2fb6d402e861e59048a14076e6a1c00e7d9d4033c6`
 - 校验文件：[SHA256SUMS.txt](SHA256SUMS.txt)
 
-本次 `1.0.2 (3)` 更新重点：
+本次 `1.0.3 (4)` 更新重点：
 
-- 详情页收藏按钮旁新增搜索按钮。
-- 搜索时自动去掉剧名末尾的 `第N季`、`Season N` 等季度后缀。
-- 一键切换到搜索页并自动搜索同一系列，方便选择其他季度。
+- 优化播放器加载动画位置和竖屏进度时间布局。
+- 修复竖屏倍速滚轮的中心定位和拖动选择。
+- 弹幕轨道重新分配，滚动弹幕最多显示 3 行，固定弹幕各 1 行。
+- 横竖屏切换时强制重建弹幕布局，避免旋转后弹幕消失。
 
 ## 构建信息
 
@@ -50,9 +52,9 @@ http://192.168.1.10:8999/tvbox.json
 | --- | --- |
 | App 名称 | 果果TV |
 | Bundle Identifier | `com.guoguo.tvbox` |
-| 版本 | `1.0.2 (3)` |
-| 源码提交 | `a7c2cd6e75c9af1388d5aad38e134b073a1838a5` |
-| 构建日期 | 2026-10-03 |
+| 版本 | `1.0.3 (4)` |
+| 源码提交 | `c83d99a` |
+| 构建日期 | 2026-10-04 |
 | 构建工具 | Xcode 27.0（27A266a） |
 | CPU 架构 | `arm64` |
 | 最低系统 | iOS 16.0 |
@@ -83,19 +85,19 @@ http://192.168.1.10:8999/tvbox.json
 macOS：
 
 ```sh
-shasum -a 256 GuoGuoTV-1.0.2-3-unsigned.ipa
+shasum -a 256 GuoGuoTV-1.0.3-4-unsigned.ipa
 ```
 
 Linux：
 
 ```sh
-sha256sum GuoGuoTV-1.0.2-3-unsigned.ipa
+sha256sum GuoGuoTV-1.0.3-4-unsigned.ipa
 ```
 
 正确结果：
 
 ```text
-dc59fdbb53583927ec955a03232f65b9450c270db01c154232cbadeba4b09e72
+7c8fba0583ffebbd59e28d2fb6d402e861e59048a14076e6a1c00e7d9d4033c6
 ```
 
 ## 安装与风险说明
